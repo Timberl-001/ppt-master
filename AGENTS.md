@@ -87,3 +87,4 @@ For Generate PPTX serial post-processing and export, follow [`generate-pptx.md`]
 - `docs/` — user-facing documentation (FAQ, installation, technical design, templates guide, audio narration).
 - `docs/rules/` — repo-wide style rules.
 - `projects/` — user project workspace.
+- `deliverables/ppt/` — tracked destination for final generated PPTX files. Save future PPTX deliverables here rather than only in the ignored `projects/` workspace, and report the repository-relative path to the user.
